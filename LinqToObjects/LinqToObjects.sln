@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2016
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToObjects", "..\LinqToObjects\LinqToObjects.csproj", "{AFD0CD92-8DD1-42AA-839E-FE42EBB9389E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToObjects", "LinqToObjects\LinqToObjects.csproj", "{AFD0CD92-8DD1-42AA-839E-FE42EBB9389E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,7 +19,13 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0F2E50A7-6CC2-45AA-9049-2D5C211D161A}
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://server:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LinqToObjects\\LinqToObjects.csproj
+		SccProjectName1 = LinqToObjects
+		SccLocalPath1 = LinqToObjects
 	EndGlobalSection
 EndGlobal
