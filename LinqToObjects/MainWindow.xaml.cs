@@ -38,7 +38,6 @@ namespace LinqToObjects
                 .Where((s) => s.FirstName == "Dawid")
                 .Select(s => s.FullName);
 
-
         }
 
         private void btnSortEmployeesAsc_Click(object sender, RoutedEventArgs e)
@@ -63,7 +62,7 @@ namespace LinqToObjects
             var filteredEmployees = data.Employees
                 .Where(s => s.FirstName.StartsWith("M") && s.LastName == filter)
                 .Select(s => new { s.FirstName, s.LastName });
-
+            
             filteredEmployees.ToList().ForEach(w => Console.WriteLine(w.LastName));
         }
 
@@ -77,7 +76,7 @@ namespace LinqToObjects
                 Console.WriteLine(s.Key);
                 s.ToList().ForEach(w => Console.WriteLine("     " + w.FirstName));
             }); 
-        }
+        } 
 
         private void btnJobs_Click(object sender, RoutedEventArgs e)
         {
